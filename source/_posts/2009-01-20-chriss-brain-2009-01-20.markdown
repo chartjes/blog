@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: Chris's Brain - 2009-01-20
+---
+<p>Thanks for all the feedback about the preview for my upcoming e-book "Refactoring Legacy Applications Using CakePHP".  My plan is to have the book done and the web site for it created just before I go to Montreal to talk at the <a href="http://conf.phpquebec.com/en">2009 PHP Quebec</a> conference.  Let's see if I can hit that mark.</p>
+<p>
+I've decided to rev back up the posting frequency on ye olde blog, so I will often be doing posts that are just quick links, or brain dumps so I don't forget things I've been working, discussing with my various online friends or trying to understand better.  So, here are some of those things:
+</p>
+<p>
+<i>Programming vs. screwing around with HTML</i><br />
+Giles Bowkett, who I follow via Twitter and his blog and I think is one of the better programmers out there at communicating his ideas, has a very interesting post about <a href="http://gilesbowkett.blogspot.com/2009/01/haml-brings-seaside-awesome-to-ruby.html">markup in Ruby and Seaside</a>.  He compares using <a href="http://haml.hamptoncatlin.com/">HAML</a> in Ruby to the tradition ERB templating system.  While I might disagree with some of what Giles thinks about people who <a href="http://gilesbowkett.blogspot.com/2009/01/why-hacker-news-thinks-php-won.html">code in PHP for a living</a>, HAML vs. ERB vs. Seaside is food for thought on programming vs. screwing around with HTML.
+</p>
+<p>
+<i>Writing books in text is best</i><br />
+While I'm certainly not the first to suggest this (Cory Doctorow has been saying this for a long time, it became obvious to me quite quickly that the best way to approach writing my book was to write it as close to the "bare iron" of text, and then rely on third-party tools to convert the output to whatever format I wanted.  So, I chose to use <a href="http://commandline.org.uk/python/introduction-restructuredtext/">ReStructuredText</a> and then installed <a href="http://code.google.com/p/rst2pdf/">rst2pdf</a> to have it generate PDF versions whenver I feel like it.
+</p>

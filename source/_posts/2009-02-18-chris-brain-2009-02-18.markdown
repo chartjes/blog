@@ -1,0 +1,21 @@
+--- 
+layout: post
+title: Chris' Brain - 2009-02-18
+---
+<p>
+<i>Book is getting close</i><br />
+Circle March 9 on your calendar, as that is the day my book "Refactoring Legacy Applications Using CakePHP" as the day it will be released.  I will be offering a PDF version and a print-on-demand version via Lulu.com.  It looks like the PDF with be $10 or less, with the price of the POD version being at least double that.  More details once I get the site for this up-and-running.
+</p>
+<p>
+<i>Book Review On The Run</i><br />
+On the recommendation of <a href="http://twitter.com/lstrojny">someone I follow on Twitter</a> I ordered a copy of "Beautiful Architecture", a collection of essays and articles published by O'Reilly and edited by Diomidis Spinellis & George Gousios.  It's all about software architecture and so far it's been an awesome read.  For anyone who's ever been in a position to have a say about not just WHAT they are building but HOW they build it, it's a great read.  I'm about halfway through.
+</p>
+<p>
+<i>Frameworks expand to fill available space</i><br />
+I was thinking about this the other day.  All frameworks start out being lightweight, unless your original design calls for you to be full-stack and bundle everything including a small web server for testing.  Then, as the project matures you keep adding things to it and before you know it you are just as big and close to being full-stack as everyone else.   So to those that call certain frameworks bloated, reconsider your position and take into account what YOU add to an application built with that framework that is not already in there.
+</p>
+<p>
+<i>7 Habits for Effective Text Editing 2.0</i><br />
+Even if you don't use <a href="http://www.vim.org">the One True Editor</a>, check out this video with the creator of Vim as he talks about <a href="http://video.google.com/videoplay?docid=2538831956647446078">being more efficient when working with text.</a>  The strategies he talks about work with ANY editor / IDE and that's really the point.
+</p>
+

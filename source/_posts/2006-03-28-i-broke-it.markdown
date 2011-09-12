@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: I Broke It...
+---
+While upgrading my <a>other blog</a> I seem to have broken it.  Ugh.  Hopefully I can get this fixed in short order.

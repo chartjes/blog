@@ -1,0 +1,22 @@
+--- 
+layout: post
+title: How Has Ruby on Rails Made Me A Better Programmer
+---
+<p>
+Via one of the RSS feeds I read I found out about an <a href="http://on-ruby.blogspot.com/2007/01/win-books-by-blogging.html">interesting contest</a> where people are asking to post their thoughts on how Rails has made you a better programmer.  The winner gets a free book.  I thought "What the heck, I don't care if I win the book but I do need a posting for today." :) So, here goes.
+</p>
+<p>
+Although my day job involves programming in PHP, my experiences with Rails have been completely transferable.  Discovering Rails showed me a bunch of new tricks that have streamlined the way I program.  There's no shame in stealing good ideas from one language and applying them to another, and anything that can make me a better programmer is a bonus for me.  Learning Rails prompted me to start talking about my experiences with it, and has led to giving talks at conferences and a magazine article.  I can say with no hesitation that Rails has brought nothing but good things to my career as a developer.
+</p>
+<p>
+<i>Convention over configuration</i> is the biggest thing I have taken away from Rails.  PHP's greatest strength is that it is flexible, allowing you to accomplish all sorts of things and build rock-solid web apps (yes PHP haters, Yahoo! is an example of rock-solid web apps that use PHP).  However, that flexibility comes at a price.  You can easily co-mingle your business logic with your data sources, with a splash of display logic built in.  We've all done it.  Why?  Because PHP says "I don't care how you do it, but I'm going to give you the tools to do so."
+</p>
+<p>
+In the Rails world, you are programming within a system that has rules, or conventions, on how to do things.  To me, Rails is saying "If you follow some simple rules about how to build your application, I promise to take care of a lot of low-level details and let you get back to the process of just building things."  Some <a href="http://pooteeweet.org/blog/563">other developers</a> have argued that this concept is akin to having to learn a new language (or perhaps even harder), so what advantage are you really getting?  I believe that once you learn the conventions, your will find a rapid increase in your productivity.  With so many developers talking about the increase in productivity they felt when switching to Ruby on Rails from other programming languages, there has to be something to it beyond just hype.
+</p>
+<p>
+Ruby's syntax and object-oriented nature has shown me that <i>simplicity matters</i>.  Too often I've worked on a piece of code, got it working and have then abandoned it for the next project.  Now, I take the time to go back after I've gotten it working and to see what I can strip out, what I can rewrite, what I can improve to make my understanding of the problem better.  I've been working with <a href="http://cakephp.org">CakePHP</a> for my recent "build-from-scratch" projects in PHP, and being a Rails-inspired framework a lot of the concepts have been totally transferable.  I find myself building out prototypes faster with Cake than if I banged out the code myself.  The code I create reads differently than the hand-crafted stuff I did before and I find it easier to go back and fix stuff after my memory has dimmed on how I solved a particular problem.  The simple the code, the more likely I'll be able to figure out what I did in order to fix it or extend it.
+</p>
+<p>
+Finally, I realize that Rails has <i>set a standard</i> for the next generation of modern web development frameworks.  Full-stack solution based on the underlying programming language?  Check!  Extensive selection of information available via Google for beginners? Check!  Loads of helpers for creating Ajax functionality?  Check!  Testing tools built right in? Check!  I could go on and on but I think you will get my point here.  The job of a framework is to provide you with all the tools you need to build an application quickly, and Rails has shown me that any solutions I use going forward need to be held up to the same standard.  So far, CakePHP is meeting my expectations in the PHP world, but Rails forges onwards with things like RJS templates and ActiveResource.  Who knows what else DHH and the crew are planning.  I know as I continue to build out my <a href="http://rallyhat.com">latest Rails-based project</a> I'll be keeping a close eye on developments.
+</p> 

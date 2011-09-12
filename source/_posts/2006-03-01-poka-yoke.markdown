@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: Poka-Yoke!
+date: 2006-03-01
+author: Chris Hartjes
+---
+I sent in my article to <a href="http://www.phparch.com">php|architect</a> on Monday.  I'm feeling a little anxious about what they may (or may not) ask me to do to the article to get it ready for publication.  Hopefully nothing major (although I can say without hesitation that my diagram drawing skills suck).
+
+The February issue of the magazine came out yesterday.  I find that in every issue there is always one article that I read that makes me go "woah!  Now <strong>that</strong> is a cool idea."  This month <a href="http://blogs.phparch.com/mt/">Marco Tabini</a>, the publisher of php|architect, has a very cool article on using PHP 5's Standard PHP Library to create what is called a poka-yoke, a Japanese term that means "fail-safe mechanism".
+
+It shows how to create a input-filtering object that prevents a developer from mishandling the data that is in the superglobals most commonly used for user input ($_GET, $_POST and $_REQUEST).  You can also do it with any of the other superglobals.  Personally, I can see using it for $_SESSION right away.
+
+Anyhow, great article Marco!  And I hope he likes my article on "Scaling PHP Applications".

@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: Where Are The Good Development Tools For PHP, Part II
+---
+<p>Thanks to everyone for the great comments to my previous post on this topic.  I think I may have found the answer to what I was looking for.  Cal Evans over at the Zend Developer Zone gave me a heads-up that he would be posting a tutorial on <a href="http://devzone.zend.com/node/view/id/2019">using Flex and PHP</a>.  I believe my exact words to him after about 10 minutes of playing with it was "this is FUCKING cool!".  Which it definitely is.</p>
+<p>
+Flash at the front, and PHP at the back I think is the sweet spot for me.  I followed his tutorial (which was very well done, kudos to you Cal) and in under ten minutes from having FlexBuilder installed (30 day trial, but FlexBuilder is really expensive at US$499) I had a very simple Flex app that was talking to my Zend Framework-powered PHP application.  I built a very simple playlist editor where I could add and remove items from the playlist.  In invested a grand total of 30 minutes in playing with it.  Big props to Adobe for creating such a cool tool for "rich internet applications".  I was hoping I could catch Mike Potter's talk at php|tek but I don't know if I'll make it in time.  My flight is supposed to touch down at 11:00AM in Chicago and the talk is at 11:30...only a miracle would get me there in time.
+</p>
+<p>I'm thinking of seeing if I can build a media upload app using Flex on Monday for the supersecret IPTV project I've been working on since I started at Syneron.  Think I can do it?  Cal tells me that there are some open source tools out there for doing Flex work so maybe I won't have to buy it. :)  Hey Mike Potter, can't you help a developer out and get me a free copy of Flex Builder? :)  Check out <a href="http://flex.org">the Flex web site</a> to see what might be the next wave of internet applications.  Flash is pretty much the only cross-browser technology that always works the same.  Or so I've been led to believe.
+</p>

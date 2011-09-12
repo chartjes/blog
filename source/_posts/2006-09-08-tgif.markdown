@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: TGIF
+---
+<p>
+It's been a very long two weeks for your humble correspondant.  My evenings have been taken up working on a consulting job (that is down to the clean-up of functionality stage and final testing) and with my daughter's last few baseball games and practices before the final tournament this coming Saturday.
+</p>
+<p>
+I'm also getting ready for my presentation next week at <a href="http://www.phparch.com/works">php|works</a>.  I've been working on the slides on the train and hope that the presentation is well-received.  Anyhow, that's all for now.  I'll post some stuff on Tuesday.
+</p>

@@ -1,0 +1,17 @@
+--- 
+layout: post
+title: What's In Chris' Brain - Christmas 2009 Edition
+---
+<p>With Christmas quickly approaching, it's time to dump all the junk rattling around in my head and into the blog.  I hope you have a great holiday season.</p>
+<p>
+<h3>Concurrency is coming, better be ready</h3>
+</p><p><a href="http://intensivesystems.net/tutorials/cont_m.html">The Continuation Mondad in Clojure</a>.  Even if you hate Lisp (I'm looking at you, Kevin) or don't give a damn about <a href="http://clojure.org/">Clojure</a> it is worth reading about to understand how you can write concurrent applications.</p>
+<h3>Real-time web applications are coming, better be ready</h3>
+<p>I have a new project I am going to be starting at work, one that can potentially involve real-time information.  Check out this series on <a href="http://thingsilearned.com/2009/06/09/starting-out-with-comet-orbited-part-1/">how to build real-time web applications using Django, Python and a javascript library called Orbited</a>.  When you combine this with the you-can-see-it-on-the-horizon-but-not-quite-here-yet concept of <a href="http://armstrongonsoftware.blogspot.com/2009/12/comet-is-dead-long-live-websockets.html">web sockets</a>, I can see some of the concepts of what I called Web Pi (3.14159, get it?  Get it?  Um okay, any way) starting to take shape.</p>
+<h3>TDD With PHP is already here, where have you been?</h3>
+<p>Giorgio Sironi has gone and <a href="http://giorgiosironi.blogspot.com/2009/12/practical-php-testing-is-here.html">written the book I was thiking of writing this winter</a>.  If you want to learn more about doing TDD with PHP, go and grab a copy of his e-book.  It's 100% free, but I liked it so much (and admired him for tackling a topic I have interest in) I donated $10 to him.  You should do the same.</p>
+<h3>Chris should not post links on Twitter that cannot be discussed in 140 characters or less</h3>
+<p>Finally, on Twitter I posted about <a href="http://devcomponents.com/blog/?p=633">this blog post</a> which talked about how it's only people who are financially secure who pound away at the "only do what you love" message.  When you don't have to work, that's easy to do.  I got into a long conversation with <a href="http://slash7.com">Amy Hoy</a> about this topic, although Twitter is a crappy medium for doing this sort of thing.</p>
+<p>
+I respect Amy a great deal, so I was kind of bummed when she and I appeared to disagree on some the key points of the blog posting.  Basically, "do what you love" is a lie because it is not always possible.  "Do what you do, with love" is a better approach to thing.  Not everyone gets to work on exactly what they want to, so perhaps I am showing some signs of neo-puritanism or something when I said "well, even if you have a crummy job you should be doing it as best as you can."  I proceeded to be smacked around by several people who do not share that philosophy.  Amy seemed to feel that the blog article was (to use her words) bullshit and was advocating "eating a shit sandwich and liking it" by giving people justification for "hiding behind the mortgage" as an excuse for not taking chances.  It will no doubt surprise Amy that I happen to agree with her, but utterly failed to get that across on twitter.  My apologies to Amy for that.  We've all worked crummy jobs, and it has been my personal experience that the best way to get out of a crummy job is to work as hard as you can to build up your skills so you are ready to leap on better opportunities when they come around.  
+</p>

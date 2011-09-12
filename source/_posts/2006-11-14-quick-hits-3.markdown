@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Quick Hits
+---
+<ul>
+<li>Zend_Service_Audioscrobbler is almost finished but the group data web service functions aren't working so the unit tests are all failing.</li>
+<li>My attempt at writing an appending scoreboard for www.footballforums.com is not working properly...have you been working on something too long if you start dreaming about it?</li>
+<li>I read a very interesting article on <a href="http://thwartedefforts.org/2006/11/11/race-conditions-with-ajax-and-php-sessions/">race conditions when dealing with sessions and AJAX in PHP</a></li>
+</ul>

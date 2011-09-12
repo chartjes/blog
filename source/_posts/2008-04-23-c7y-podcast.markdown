@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: C7Y Podcast
+---
+<p>While at Open Web Vancouver I got the chance to participate in a <a href='http://c7y.phparch.com/c/entry/1/p3,20080417'>podcast</a> with Paul Reinheimer from php|architect.  Take a listen as we discuss PHP 5.3 and some other topics, along with a disturbing discovery at the end of the podcast about my frozen cappuccino drink.
+</p>
+<p>
+A friend of mine (hi Juan!) had a brief chat with me about my "Deployment Isn't A 4 Letter Word" talk and screencast and brought up some interesting points about the talk.  I was gonna do a posting about it today, but I need some time to put my thoughts together in a coherent way.  Look for that on Friday.
+</p>

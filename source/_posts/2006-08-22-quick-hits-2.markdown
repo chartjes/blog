@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Quick Hits
+---
+Here's a short list of some of the things I've been thinking about
+<ul>
+<li>Adding in code to the stats system at work to collect raw and unique IP addresses.  The twist?  I'm creating it as a plugin for vBulletin</li>
+<li>Doing some rework on my <a href="http://hades.phparch.com/ceres/public/page/index.php/works::schedule::synopses::what_can_php_learn_from_rails">session at php|works</a> by reorganizing the content of the talk.  I've listened to a few podcasts lately that have given me some more insight into making this a cool talk</li>
+<li>I have a domain name -- rallyhat.com -- that I'm trying to figure out what to do with</li>
+<li>I highly recommend that you go and read Scott Johnson's excellent <a href="http://www.fuzzyblog.com">Fuzzyblog</a> and listen to his podcasts as well.  Along with listening to <a href="http://podcast.phparch.com">php|architect's Pro PHP Podcast</a>
+</li></ul>
+See y'all on Friday.
