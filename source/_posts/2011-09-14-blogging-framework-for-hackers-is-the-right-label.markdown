@@ -95,3 +95,4 @@ end
 
 Like I said, I'm happy I switched but the brittleness of the whole setup is something I find annoying. I realize that Octopress probably started it's life as one person's set of tools they were using to manage a Jekyll blog. The process of turning that extraction into a general-purpose tool is a difficult one and I want to say thank you to [Brandon Mathis](https://github.com/imathis) for providing quick and useful information in the #octopress channel on Freenode while I tried to figure out how to fix the problems I was facing.
 
+(Edit: On Twitter Octopress' creator felt I was [saying that everyone must endure what I went through](https://twitter.com/#!/imathis/status/113991077555474433), which isn't the case. My point was that the whole setup seems fragile to me and that one little mistake shouldn't make everything blow up like it did. Now that I know what to look out for, this shouldn't happen again. Cheer up Brandon!)
