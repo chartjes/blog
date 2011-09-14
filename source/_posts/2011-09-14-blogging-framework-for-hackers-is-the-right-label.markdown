@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blogging framework for hackers" is the right label 
+title: \"Blogging framework for hackers\" is the right label 
 author: Chris Hartjes
 date: 2011-09-14
 comments: true 
