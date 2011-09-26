@@ -1,17 +1,13 @@
 <h2>My Latest Gimmies</h2>
 <ul id="gb_assets"></ul>
 <script type="text/javascript">
-    google.load('jquery', '1.6.4');
-    $.ajax({
-        'url':'https://gimmebar.com/api/v0/public/assets/grumpycanuck.js',
-        'jsonp':'jsonp_callback',
-        'dataType':'jsonp',
-        'success':function(data) {
-            
-            var list_tpl = "<% _.each(records, function(record) { %> <li><a href='https://gimmebar.com/view/<%=record.id%>'><%=record.title%></li></a> <% }); %>";
-            var list_html = _.template(list_tpl, data);
-            
-            $('#gb_assets').html(list_html);
-        }
-    });
+reqwest({
+    url: 'https://gimmebar.com/api/v0/public/assets/grumpycanuck.js?jsonp_callback=?',
+    type: 'jsonp',
+    success: function(data){
+        var list_tpl = "<% _.each(records, function(record) { %> <li><a href='https://gimmebar.com/view/<%=record.id%>'><%=record.title%></li></a> <% }); %>";
+        var list_html = _.template(list_tpl, data);
+        $('#gb_assets').html(list_html);
+    }
+});
 </script>
