@@ -6,7 +6,7 @@ date: 2011-10-10
 comments: true 
 sharing: true 
 ---
-Well, I couldn't very wall call this post [MOAR OFFICE PORN](https://twitter.com/weierophinney/status/122317724117516288) as [MWOP](http://weierophinney.net/matthew/) suggested.
+Well, I couldn't very well call this post [MOAR OFFICE PORN](https://twitter.com/weierophinney/status/122317724117516288) as [MWOP](http://weierophinney.net/matthew/) suggested.
 
 I have talked before on this blog about stuff related to what goes into being a successful remote worker. I've been telecommuting for 4-1/2 years now and it's the best thing that ever happened to my career. It allowed me to grow into the programmer I am today by teaching me the importance of being disciplined, learning how to communicate effectively in a remote environment, and how to not take shit from anyone just because I wasn't in the same office as them. This will be the first article in a series about what I think are some successful strategies for being a good remote worker. Today's lesson is about creating an effective workspace.
 
