@@ -35,7 +35,7 @@ Before I go any further, if you are not using a version control system to keep
 track of changes to your code, then please stop reading and go and install one.
 Having versions of your files with extensions like .1 and .old is the worst
 kind of infrastructure debt that you could possibly have. It's the 2nd decade
-of the 21st century. Version control is a 20 year old, well-understood concept.
+of the 21st century. Version control is an almost 40-years-old, well-understood concept.
 Nothing I suggest will work if you insist on acting like version control
 is of no use to you. Passing around diff patches is not version control, my
 friends. It's denial. Don't tell me just because people used to do it in
@@ -143,7 +143,7 @@ The decision to start paying down your infrastructure debt is not an easy one,
 because it will often require many changes to be made by many people. Most
 programmers are creatures of habit and dislike change, even when it is 
 obviously better. Don't be scared of change, be scared of the debt growing
-in your code base and in in your infrastructure. It won't go away and
+in your code base and in your infrastructure. It won't go away and
 there is no government bailout on the way to fix it.
 
 As always, I welcome your thoughts via email, Twitter and comments on this blog. 
