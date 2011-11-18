@@ -36,7 +36,11 @@ I went and asked some questions in the Freenode IRC channel for Octopress and fo
 that they recommended the use of JS libraries that are compatible with [Ender.js](http://dustindiaz.com/ender).
 Okay, so that was no problem. So what to use to make the actual AJAX request call to
 the API? [Reqwest](https://github.com/ded/reqwest) was mentioned by some as the best
-fit for using with Ender. Finally, I used [Underscore](https://github.com/documentcloud/underscore) to 
+fit for using with Ender. Reqwest is an easy-to-use JS AJAX library that the #octopress
+guys suggest I use since jQuery doesn't currently play nice with all the other JS
+libraries that Octopress is using.
+
+Finally, I used [Underscore](https://github.com/documentcloud/underscore) to 
 help with templating.
 
 Even though I'm not much of a JS whiz, I was able to take Ed's example and very quickly
