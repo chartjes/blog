@@ -2,7 +2,7 @@
 layout: post
 title: "Better HTTP Request/Response in PHP" 
 author: Chris Hartjes
-date: 2012-12-12
+date: 2011-12-12
 comments: true 
 sharing: true 
 ---

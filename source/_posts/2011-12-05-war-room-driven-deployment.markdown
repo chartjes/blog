@@ -2,7 +2,7 @@
 layout: post
 title: "War-room Driven Deployment" 
 author: Chris Hartjes
-date: 2012-12-05
+date: 2011-12-05
 comments: true 
 sharing: true 
 ---
