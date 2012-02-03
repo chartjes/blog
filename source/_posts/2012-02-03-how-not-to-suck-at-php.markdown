@@ -30,7 +30,7 @@ I have spoken at length about my opinion that PHP won the web war because
 it was so tightly coupled with HTML and very early on had support to run
 with Apache via mod\_php. However the world has changed, and the web war
 itself has changed. I think I can say with a smirk that the web war is now
-an asymetrical one, where the expectations of behviour by users is totally
+an asymmetrical one, where the expectations of behaviour by users is totally
 different.
 
 But PHP is still in a really good position because of its true nature:
