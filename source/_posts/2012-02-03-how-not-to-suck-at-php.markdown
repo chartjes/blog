@@ -2,7 +2,7 @@
 layout: post
 title: "How Not To Suck At PHP" 
 author: Chris Hartjes
-date: 2012-01-17
+date: 2012-02-03
 comments: true 
 sharing: true 
 ---
