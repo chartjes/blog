@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Organzing Slim Framework Applications" 
+title: "Organizing Slim Framework Applications" 
 author: Chris Hartjes
 date: 2012-02-14
 comments: true 
