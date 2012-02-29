@@ -41,7 +41,7 @@ Scenario:
 	Given I call "/transactions/current"
 	Then I get a response
 	And the response is JSON
-	And the response contains more than one transaction
+	And the response contains at least one transaction
 	And the first transaction contains a transaction ID
 	And the first transaction contains two teams
 	And the first transaction contains a description
@@ -124,17 +124,17 @@ class FeatureContext extends BehatContext
     }
 
     /**
-     * @Given /^the response contains more than one transaction$/
+     * @Given /^the response contains at least one transaction$/
      */
-    public function theResponseContainsMoreThanOneTransaction()
+    public function theResponseContainsAtLeastOneTransaction()
     {
         $data = json_decode($this->response);
 
-        if (count($data) >= 1) {
-            throw new Exception("Response did not contain more than one transaction");
+        if (count($data) < 1) {
+            throw new Exception("Response did not contain at least one transaction");
         }
     }
-
+   
     /**
      * @Given /^the first transaction contains a transaction ID$/
      */
@@ -200,14 +200,14 @@ Feature: transactions API
     Given I call "/transactions/current"                # FeatureContext::iCall()
     Then I get a response                               # FeatureContext::iGetAResponse()
     And the response is JSON                            # FeatureContext::theResponseIsJson()
-    And the response contains more than one transaction # FeatureContext::theResponseContainsMoreThanOneTransaction()
+    And the response contains at least one transaction  # FeatureContext::theResponseContainsAtLeastOneTransaction()
     And the first transaction contains a transaction ID # FeatureContext::theFirstTransactionContainsATransactionId()
     And the first transaction contains two teams        # FeatureContext::theFirstTransactionContainsTwoTeams()
     And the first transaction contains a description    # FeatureContext::theFirstTransactionContainsADescription()
 
 1 scenario (1 passed)
 7 steps (7 passed)
-0m0.492s
+0m0.362s
 {% endcodeblock %}
 
 I have obviously only scratched the surface of what can be done with Behat.

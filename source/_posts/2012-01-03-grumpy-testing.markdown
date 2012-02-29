@@ -6,7 +6,7 @@ date: 2012-01-03
 comments: true 
 sharing: true 
 ---
-After the middling success of my first [programming book](http://www.littlehart.net/bnok)
+After the middling success of my first [programming book](http://www.littlehart.net/book)
 I had been thinking about writing another book. When the end of October rolled
 around and [National Novel Writing Month](https://en.wikipedia.org/wiki/National_Novel_Writing_Month)
 was about to happen I decided to take the plunge and write something.
