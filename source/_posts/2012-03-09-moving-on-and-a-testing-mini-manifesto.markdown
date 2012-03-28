@@ -19,7 +19,7 @@ testing and automation. Which also got me to thinking about the reasons why I
 am so passionate about these things.
 
 I thought I would create my own little testing mini-manifesto here. The ideas
-my [podcasting partner](https://twitter.com/funkatron) did with his [MicroPHP Manifesto](http://microphp.org)
+my [podcasting](http://devhell.info) [ partner](https://twitter.com/funkatron) did with his [MicroPHP Manifesto](http://microphp.org)
 made me realize that sometimes it is good to write these things down, as it
 were.
 
