@@ -26,15 +26,15 @@ up with an example scenario that I hope goes a long way to explaining how
 to effectively use mock objects.
 
 In these examples I am using PHPUnit's [built-in support](http://www.phpunit.de/manual/3.0/en/mock-objects.html)
-for mock objects. At Kaplan our testing engineer told me that he likes to use
+for mock objects. At Kaplan our testing engineer told me that he had tried to use
 [Mockery](https://github.com/padraic/mockery) but there were problems getting
 it to play nicely with the dependency injection container that is in use (it's
-a customized version of [Pimple](http://pimple.sensiolabs.org). Can't argue
-with that. Not until I experiment with Pimple myself to see if it gains us
+a customized version of [Pimple](http://pimple.sensiolabs.org)). Can't argue
+with that. Not until I experiment with Mockery myself to see if it gains us
 anything instead of using what comes with PHPUnit.
 
 So here is our scenario: we have a class called Alpha, that contains a method
-called munge(). We wish to test that method in a unit tests. So what does
+called munge(). We wish to test that method in a unit test. So what does
 this class look like?
 
 {% codeblock lang:php %}
@@ -84,7 +84,7 @@ class Foo
 }
 {% endcodeblock %}
 
-So it looks like this class represents 1 "Foo" object in the system. I omitted
+So it looks like this class represents one "Foo" object in the system. I omitted
 the constructor as it's not really important to the lesson I'm trying to teach
 here. Let's assume we have a way to generate a Foo object via some sort of
 mapper. 
@@ -100,13 +100,12 @@ class Test extends PHPUnit_Framework_TestCase
     public function testAlphaMunge()
     {
         $mockFoo = $this->getMockBuilder('Foo')
-            ->setMethods(array('getDetails', 'getId'))
             ->disableOriginalConstructor()
             ->getMock();
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
             ->will($this->returnValue('1->2');
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
             ->will($this->returnValue('1');
 
@@ -120,13 +119,13 @@ When you build a mock for use in your test, you generally have to do two things:
 * create a mock of the object itself
 * tell it what to do when specific methods are called
 
-What I've done here is pretty standard EXCEPT for the use of that disanleOriginalConstructor()
+What I've done here is pretty standard EXCEPT for the use of that disableOriginalConstructor()
 method. Why is it used? Well, sometimes when you are creating a mock of an object
 it will often have a constructor that accepts parameters. I'm not testing to see
 if we can create the object, I merely am trying to simulate some of the methods
 of that object.
 
-Once I've created the mock of the object, I then tell this mock object what
+Once I've created the mock of the object, I then tell it what
 to do when I make certain method calls. Clearly I've just pulled some 
 arbitrary values out of my ass for this example, but usually you can figure
 out what some reasonable return values are supposed to be by, you know, actually
@@ -161,24 +160,22 @@ class Test extends PHPUnit_Framework_TestCase
     public function testAlphaMunge()
     {
         $mockFoo = $this->getMockBuilder('Foo')
-            ->setMethods(array('getDetails', 'getId'))
             ->disableOriginalConstructor()
             ->getMock();
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
             ->will($this->returnValue('1->2');
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
             ->will($this->returnValue('1');
 
         $mockBar = $this->getMockBuilder('Bar')
-            ->setMethods(array('getStartDate', 'getEndDate'))
             ->disableOriginalConstructor()
             ->getMock();
-        $mockBar->expects($this->once())
+        $mockBar->expects($this->atLeastOnce())
             ->method('getStartDate')
             ->will($this->returnValue('2012-03-27');
-        $mockBar->expects($this->once())
+        $mockBar->expects($this->atLeastOnce())
             ->method('getEndDate')
             ->will($this->returnValue('2012-04-09');
 
@@ -187,12 +184,20 @@ class Test extends PHPUnit_Framework_TestCase
 }
 {% endcodeblock %}  
 
-A quick note about $this->once(): when you mock the objects you can tell it
-how often you expect that method to be called. This is usefull if you need
-to make sure you ONLY call something once or if it needs to behave differently
-the second time you call. In a lot of cases you can probably be lazy and
-just use $this->any() but I tend to stick with $this->once() unless I know
-otherwise.
+A quick note about $this->atLeastOnce(): when you mock the objects you can tell it
+how often you expect that method to be called. I had a long discussion about this
+with our testing engineer Will Parker after I posted the orginal version of this post.
+
+We have multiple options
+
+* $this->once() - should be used only when you REALLY want that method to be called once
+* $this->atLeastOnce() - should be used when you need to do it once but aren't sure how many times
+* $this->any() - you really don't care how many times it's called
+
+If you're lazy, you'll go with $this->any() so you don't have to worry about it.
+After a discussion with Will, I have come to like the use of $this->atLeastOnce().
+It's not a deal-breaker no matter which one you choose, a lot of it comes down
+to personal preferences.
 
 So now we have our two objects mocked. Now we can go back to our test and
 add in the creation of our Alpha class, inject the two mocks into the 
@@ -205,29 +210,29 @@ class Test extends PHPUnit_Framework_TestCase
     public function testAlphaMunge()
     {
         $mockFoo = $this->getMockBuilder('Foo')
-            ->setMethods(array('getDetails', 'getId'))
             ->disableOriginalConstructor()
             ->getMock();
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
             ->will($this->returnValue('1->2');
-        $mockFoo->expects($this->once())
+        $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
             ->will($this->returnValue('1');
 
         $mockBar = $this->getMockBuilder('Bar')
-            ->setMethods(array('getStartDate', 'getEndDate'))
             ->disableOriginalConstructor()
             ->getMock();
-        $mockBar->expects($this->once())
+        $mockBar->expects($this->atLeastOnce())
             ->method('getStartDate')
             ->will($this->returnValue('2012-03-27');
-        $mockBar->expects($this->once())
+        $mockBar->expects($this->atLeastOnce())
             ->method('getEndDate')
             ->will($this->returnValue('2012-04-09');
 
+        $source = "1|1->2|2012-03-27|2012-04-09";
+        $expectedMunge = md5('rocksalt' . $source);
+        
         $testAlpha = new Alpha();
-        $expectedMunge = '57fc444798b313a9a4839ddb36d319e1';
         $munge = $testAlpha->getMunge($mockFoo, $mockBar);
 
         $this->assertEquals(
