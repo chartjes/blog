@@ -104,10 +104,10 @@ class Test extends PHPUnit_Framework_TestCase
             ->getMock();
         $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
-            ->will($this->returnValue('1->2');
+            ->will($this->returnValue('1->2'));
         $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
-            ->will($this->returnValue('1');
+            ->will($this->returnValue('1'));
 
         // More test fun to come
     }
@@ -164,20 +164,20 @@ class Test extends PHPUnit_Framework_TestCase
             ->getMock();
         $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
-            ->will($this->returnValue('1->2');
+            ->will($this->returnValue('1->2'));
         $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
-            ->will($this->returnValue('1');
+            ->will($this->returnValue('1'));
 
         $mockBar = $this->getMockBuilder('Bar')
             ->disableOriginalConstructor()
             ->getMock();
         $mockBar->expects($this->atLeastOnce())
             ->method('getStartDate')
-            ->will($this->returnValue('2012-03-27');
+            ->will($this->returnValue('2012-03-27'));
         $mockBar->expects($this->atLeastOnce())
             ->method('getEndDate')
-            ->will($this->returnValue('2012-04-09');
+            ->will($this->returnValue('2012-04-09'));
 
         // More test fun to come
     }
@@ -214,20 +214,20 @@ class Test extends PHPUnit_Framework_TestCase
             ->getMock();
         $mockFoo->expects($this->atLeastOnce())
             ->method('getDetails')
-            ->will($this->returnValue('1->2');
+            ->will($this->returnValue('1->2'));
         $mockFoo->expects($this->atLeastOnce())
             ->method('getId')
-            ->will($this->returnValue('1');
+            ->will($this->returnValue('1'));
 
         $mockBar = $this->getMockBuilder('Bar')
             ->disableOriginalConstructor()
             ->getMock();
         $mockBar->expects($this->atLeastOnce())
             ->method('getStartDate')
-            ->will($this->returnValue('2012-03-27');
+            ->will($this->returnValue('2012-03-27'));
         $mockBar->expects($this->atLeastOnce())
             ->method('getEndDate')
-            ->will($this->returnValue('2012-04-09');
+            ->will($this->returnValue('2012-04-09'));
 
         $source = "1|1->2|2012-03-27|2012-04-09";
         $expectedMunge = md5('rocksalt' . $source);
