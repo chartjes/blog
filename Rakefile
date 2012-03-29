@@ -6,9 +6,10 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 
 ssh_user       = "chartjes@littlehart.net"
+ssh_port       = "22"
 document_root  = "~/atthekeyboard/"
 deploy_default = "rsync"
-
+rsync_delete   = "true"
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
 
