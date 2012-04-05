@@ -80,25 +80,19 @@ public testConstructorAssignsExpectedAttributeValues()
     );
  
     $this->assertAttributeEquals(
-        $alphaConfig->foo,
-        '_foo',
-        $alphaTest,
-        'Should set expected foo config value'
-    );
-
-    $this->assertAttributeEquals(
         $alphaConfig->bar,
         '_bar',
         $alphaTest,
-        'Should set expected bar config value'
+        'Should set expected foo config value'
     );
 
     $this->assertAttributeEquals(
         $alphaConfig->baz,
         '_baz',
         $alphaTest,
-        'Should set expected baz config value'
+        'Should set expected bar config value'
     );
+
 }
 
 {% endcodeblock lang:php %}
