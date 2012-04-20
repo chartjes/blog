@@ -48,9 +48,12 @@ Now, create the manifests directory inside the directory where you are placing
 the new VM and add a file called default.pp that looks like this:
 
 {% codeblock lang:ruby %}
-# Puppet manifest for a PHP 5.4 dev machine
+# Puppet manifest for my PHP dev machine
 
 class httpd {
+  exec { 'yum-update':
+    command => '/usr/bin/yum -y update'
+  }
 
   package { "httpd":
     ensure => present,
@@ -58,107 +61,73 @@ class httpd {
 
   package { "httpd-devel":
     ensure  => present,
-    require => Package["httpd"]
-  }
-
-  exec {
-    "/bin/sed -i '/22/ i -A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT' /etc/sysconfig/iptables":
-      alias   => "open-port80",
-      require => Package["httpd-devel"],
-  }
-
-  exec {
-    "/bin/sed -i '/22/ i -A INPUT -m state --state NEW -m tcp -p tcp --dport 8000 -j ACCEPT' /etc/sysconfig/iptables":
-      alias   => "open-port8000",
-      require => Package["open-port80"],
-  }
-  
-  exec {
-    "/etc/init.d/iptables restart",
-      alias   => "restart-iptables",
-      require => Package["open-port8000"],
   }
 }
 
 class phpdev {
   package { "libxml2-devel":
     ensure  => present,
-    require => Package["httpd-devel"]
   }
 
+  
   package { "libXpm-devel":
     ensure  => present,
-    require => Package["libxml2-devel"]
   }
  
   package { "gmp-devel":
     ensure  => present,
-    require => Package["libXpm-devel"]
   }
  
   package { "libicu-devel":
     ensure  => present,
-    require => Package["gmp-devel"]
   }
 
   package { "t1lib-devel":
     ensure  => present,
-    require => Package["libicu-devel"]
   }
   
   package { "aspell-devel":
     ensure  => present,
-    require => Package["t1lib-devel"]
   }
   
   package { "openssl-devel":
     ensure  => present,
-    require => Package["aspell-devel"]
   }
  
   package { "bzip2-devel":
     ensure  => present,
-    require => Package["openssl-devel"]
   }
  
   package { "libcurl-devel":
     ensure  => present,
-    require => Package["bzip2-devel"]
   }
 
   package { "libjpeg-devel":
     ensure  => present,
-    require => Package["libcurl-devel"]
   }
 
   package { "libvpx-devel":
     ensure  => present,
-    require => Package["libjpeg-devel"]
   }
 
   package { "libpng-devel":
     ensure  => present,
-    require => Package["libvpx-devel"]
   }
 
   package { "freetype-devel":
     ensure  => present,
-    require => Package["libpng-devel"]
   }
 
   package { "readline-devel":
     ensure  => present,
-    require => Package["freetype-devel"]
   }
 
   package { "libtidy-devel":
     ensure  => present,
-    require => Package["readline-devel"]
   }
 
   package { "libxslt-devel":
     ensure  => present,
-    require => Package["libtidy-devel"]
   }
 }
 
@@ -166,7 +135,6 @@ class rpmforge {
   exec {
     "/usr/bin/wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm":
       alias   => "grab-rpmforge",
-      require => Package["libxslt-devel"],
   }
 
   exec {
@@ -190,6 +158,7 @@ class rpmforge {
 include httpd
 include phpdev
 include rpmforge
+
 {% endcodeblock %}
 
 Now, there *appears* to be a lot of stuff going on in there, but it's actually
