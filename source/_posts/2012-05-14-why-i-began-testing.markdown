@@ -52,7 +52,7 @@ they were either still there but not being used, or ripped out under the
 guise of Getting Shit Done Does Not Include Writing Tests.
 
 So why am I still in the minority that values testing? I think it's because
-many people blond themselves to the reality of how much work they are really
+many people blind themselves to the reality of how much work they are really
 getting done. Writing tests as part of the development process, in my opinion,
 simply moves the debugging of your application from after you've written the
 code to while you are still writing it.
