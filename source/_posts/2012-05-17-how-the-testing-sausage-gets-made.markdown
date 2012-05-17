@@ -2,7 +2,7 @@
 layout: post
 title: "How The Testing Sausage Gets Made" 
 author: Chris Hartjes
-date: 2012-05-16
+date: 2012-05-17
 comments: true 
 sharing: true 
 ---
