@@ -46,7 +46,7 @@ There is nothing specific to doing TDD in these plugins, but what they
 do for me is allow me to slice and dice text as quickly as possible, along
 with providing me with easy ways to navigate through the code base. Remember,
 reducing friction is a big thing to me. If the tool makes it tough for me
-to do what I want, it will be the target of grumpy ranitng.
+to do what I want, it will be the target of grumpy ranting.
 
 One of the reasons I like Sublime Text 2 is that you can jump all over the
 place in the code base in similar ways. If you editor doesn't allow you to
