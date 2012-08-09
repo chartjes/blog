@@ -101,6 +101,7 @@ as much as you can to understand how to build what they want.
 * learned how to get accepted at conferences
 * learned how to get mad about getting rejected to speak at conferences
 * developed ridonkulous levels of confidence in both my own skills and my abilities to find jobs I want to do
+* started co-organizing a PHP user's group in Toronto
 
 Challenge 6: Find a job doing what you want to do
 -------------------------------------------------
@@ -113,6 +114,8 @@ a personally-frustrating year I left to join a place doing the types of things I
 
 * learned how to wrap tests around reluctant code bases
 * learned how to write an ebook
+* learned how to do a podcast about programming issues
+* started organzing a PHP conference in Toronto
 
 Challenge 7: Keep finding challenges
 ------------------------------------
