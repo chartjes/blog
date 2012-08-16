@@ -1,0 +1,20 @@
+---
+layout: post
+title: "5 Minute TDD" 
+author: Chris Hartjes
+date: 2012-08-16
+comments: true 
+sharing: true 
+---
+I created a screencast for you. No really, just for *you*.
+
+<script src="http://www.littlehart.net/atthekeyboard/javascripts/flowplayer-3.2.11.min.js"></script>
+
+<a 
+href="https://s3.amazonaws.com/grumpy-testing/5m-TDD.mp4" 
+style="display:block;width:800px;height:600px;"
+id="player">
+</a>
+<script language="JavaScript">
+flowplayer("player", "http://www.littlehart.net/atthekeyboard/assets/flowplayer-3.2.14.swf");
+</script>
