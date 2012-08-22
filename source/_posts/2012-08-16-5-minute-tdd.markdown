@@ -18,3 +18,7 @@ id="player">
 <script language="JavaScript">
 flowplayer("player", "http://www.littlehart.net/atthekeyboard/assets/flowplayer-3.2.14.swf");
 </script>
+
+If you can't view the video because you're on a device that doesn't support flash, or you want
+to view it offline later, then
+you can view it <a href="https://s3.amazonaws.com/grumpy-testing/5m-TDD.mp4">here</a> 
