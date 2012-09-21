@@ -2,7 +2,7 @@
 layout: post
 title: "Biz Lessons Learned" 
 author: Chris Hartjes
-date: 2012-08-08
+date: 2012-09-21
 comments: true 
 sharing: true 
 ---
