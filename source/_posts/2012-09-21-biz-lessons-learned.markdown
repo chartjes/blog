@@ -11,7 +11,7 @@ It all started with me thinking "Let's write a technical book as part of
 National Novel Writing Month" and has progressed to me recently signing an 
 agreement to license copies of my book to an online tutorial site for
 a number that is very close to all sales for the first book I ever wrote on
-[refactoring PHP applications to use CakePHP](http://http://www.wjgilmore.com/books/read/refactoring_legacy_applications_using_cakephp).
+[refactoring PHP applications to use CakePHP](http://www.wjgilmore.com/books/read/refactoring_legacy_applications_using_cakephp).
 
 Along the way I have learned some valuable lessons about the process, and at
 the same time have been getting some great insights via Amy Hoy's "I cannot
