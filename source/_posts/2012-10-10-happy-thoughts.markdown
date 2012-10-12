@@ -46,6 +46,6 @@ for whatever tasks I tackle when I am confident I can do a good job.
 
 You can be happy. I'll be over here feeling satisfied. 
 
-Thanks to [the icon of the PHP community](https://twitter.com/CaleEvans) for
+Thanks to [the icon of the PHP community](https://twitter.com/CalEvans) for
 the topic suggestion. 
 
