@@ -12,7 +12,7 @@ large-scale dating web sites.
 
 A huge consumer of open-source software, Chris tries to give back to the community
 via his blog, by speaking at conferences, and by co-organizing the [GTA PHP User Group](http://meetup.gtaphp.org).
-He is also a big believer in the power of best practices, testing, and automation as secret
+He is also a big believer in the power of testing and automation as secret
 weapons for organizations to deliver high quality applications quickly.
 
 He lives in Milton, Ontario, Canada with his long-suffering wife, two daughters, a furry pig
