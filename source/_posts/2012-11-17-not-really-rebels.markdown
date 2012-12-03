@@ -28,7 +28,7 @@ He gave a lightning talk where he explained his own experiences in rebelling
 from inside a large monolithic organization, the US army, in order to prevent
 himself from doing something he didn't want to do. He also brought up the 
 point that so many people project an aura of rebellion through clothes, or
-programming language of choice, but still start each day but sitting down
+programming language of choice, but still start each day by sitting down
 in front of a computer and essentially asking their boss "how can I make
 you rich today, sir?"
 
