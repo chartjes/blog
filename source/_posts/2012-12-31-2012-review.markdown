@@ -1,0 +1,78 @@
+---
+layout: post
+title: "2012 Review" 
+author: Chris Hartjes
+date: 2012-12-31
+comments: true 
+sharing: true 
+---
+2012 was a very interesting year for me. It started with me being tired
+and unhappy...and this year ended with me being tired and unhappy. For
+different reasons, though.
+
+I had a much different blog post written, and decided to scrap it in favour
+of a different approach. Buckle up, here we go, starting with January and 
+continuing to the end of the year:
+
+* unhappy with start-up life
+* started grinding out episodes of a [podcast](http://devhell.info) with [Ed](https://twitter.com/funkatron)
+* released my ["write testable PHP applications" book](http://grumpy-testing.com) on January 11th
+* spoke to a near-empty room at CodeMash 2012, they seem to not like PHP there
+* started working for an online learning company
+* made plans to attend [PHP|Tek 2012](http://tek12.phparch.com)
+* found softball enjoyable this year as I could actually bend over to field balls. Still can't hit
+* did a live episode of the podcast at PHP|Tek, which was awesome
+* started mentoring three developers on ways of being grumpy programmers
+* found the benefits of test-centric development to be ruined by a terrible work environment
+* Ed and I hit our groove with the podcast in the summer
+* started looking for another job
+* taught my PHP testing bootcamp course of the first time, in person though
+* switched to my third job in 2012
+* got accepted to speak at a conference in Sweden
+* helped organize a [PHP conference](http://truenorthphp.ca) up here in Kanuckistan
+* spoke to a near-empty room at the conference in Sweden, guess they don't like PHP there either
+* got accepted to speak at a PHP conference in Belgium
+* created an online version of my PHP testing bootcamp course
+* worked on my [next book](http://grumpy-phpunit.com)
+* wondered what the hell happened to everything I wanted to do in 2012.
+
+Like so many things in life, you can only plan for so much. At the beginning of
+2012 the only thing I knew for sure was (a) I wasn't liking my job and (b) my
+book was coming out extremely soon. At the same time I was worrying about the
+fact that my ENTIRE FUCKING CAREER is basically built upon the pile of web-enabled
+spaghetti that is PHP. What the hell should I do?
+
+So I took some babysteps towards learning server-side Javascript and played around
+with Node.js. I like it, I think I am understanding how to build applications using 
+it in a more idiomatic way.
+
+But there is still lots of PHP. Can't escape it, it's all I know. Well, that and
+a whole bunch of actual theory on how to build web applications as small modules
+of code that talk to each other.
+
+I didn't set any goals for 2012 other than "sell $10K worth of books" and I did
+manage to almost accomplish that. $6,547.25 in royalties for the ebook, $2K
+in licensing fees and some-amount-I-have-not-added-up in paper copies of the book.
+I think I can say that I *almost* made it, and that my next book will do
+even better because of the success of the first one.
+
+So what is in store for me in 2013? The plan is to keep pushing the info-products
+(books, courses, screencasts later in the year) while continuing to make solid
+contributions at the day job. There is no lack of interesting things for me
+to do at the day job, more than enough to keep the gears going.
+
+I enter 2013 feeling like I'm stuck in low gear mentally, though. I've clearly
+over-committed myself and I just have to grind through it until March 2013.
+
+I will say that I have decided to focus on becoming a better programmer, no
+matter what languages I tackle. I have a bunch of reading material cued up 
+to help me get better at taking real-world problems and figuring out how
+to solve them in the context of programming environments and domain models.
+
+That is the last piece that I personally feel is missing from my skill set:
+learning how to figure out how to turn business objectives into techincal
+solutions. I'm in a good spot to do it, and I know my [boss](https://twitter.com/PolarLava)
+has all sorts of "fun" things lined up for me to do.
+
+So thanks for another year of watching what I do with some interest and I aim
+to provide you with more entertainment and knowledge throughout 2013. 
