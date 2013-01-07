@@ -54,7 +54,16 @@ tossed away if the idea you are implementing is unable to prove it's value.
 Opportunity cost is huge and often dismissed by developers too. If you have
 some prototype code, or even functionality with a half-life measured
 in 3-month-increments, what else could be worked on while tests for this
-code are being written?
+code are being written? 
+
+Could this hybrid approach be an easier sell to skeptical managers or
+other stakeholders? That's hard to say. The "too busy to write tests"
+camp still has many members, and is still seems that it takes catastrophic
+failures before many people join the Testing Crusade.
+
+To be perfectly clear: I find great value in prototyping code and then
+comitting to tests once the prototype is ready to move to a more stable
+environment.
 
 I try and do prototyping before I commit to writing code, because I often
 feel that way. My prototypes are usually command-line scripts that try
