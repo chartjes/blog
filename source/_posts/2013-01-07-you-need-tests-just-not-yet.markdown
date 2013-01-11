@@ -62,7 +62,7 @@ camp still has many members, and is still seems that it takes catastrophic
 failures before many people join the Testing Crusade.
 
 To be perfectly clear: I find great value in prototyping code and then
-comitting to tests once the prototype is ready to move to a more stable
+committing to tests once the prototype is ready to move to a more stable
 environment.
 
 I try and do prototyping before I commit to writing code, because I often
