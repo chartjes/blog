@@ -73,3 +73,6 @@ twitter_tweet_button: true
 # Disqus Comments
 disqus_short_name: atthekeyboard
 disqus_show_comment_count: true 
+
+# Google Analytcs
+google_analytics_tracking_id: UA-38525675-1
